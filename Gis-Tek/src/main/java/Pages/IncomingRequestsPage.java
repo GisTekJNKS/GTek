@@ -15,11 +15,11 @@ import static com.codeborne.selenide.Selenide.$;
  */
 public class IncomingRequestsPage extends PageBase {
 
-    private static final By BUTTON_SEND_FOR_RECONCILIATION = By.xpath("//button[text()='Отправить на согласование']");
-    private static final By BUTTON_APPROVE_REQUEST = By.xpath("//button[text()='Утвердить']");
-    private static final By BUTTON_EDIT = By.xpath("//button[text()='Редактировать']");
+    private static final By BUTTON_SEND_FOR_RECONCILIATION = By.xpath("//button[text()='РћС‚РїСЂР°РІРёС‚СЊ РЅР° СЃРѕРіР»Р°СЃРѕРІР°РЅРёРµ']");
+    private static final By BUTTON_APPROVE_REQUEST = By.xpath("//button[text()='РЈС‚РІРµСЂРґРёС‚СЊ']");
+    private static final By BUTTON_EDIT = By.xpath("//button[text()='Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ']");
     private static final By FIRST_REQUEST = By.cssSelector("div[data-reactid='.0.1.0.2.0.0:0']");
-    private static final By BUTTON_SAVE = By.xpath("//button[text()='Сохранить']");
+    private static final By BUTTON_SAVE = By.xpath("//button[text()='РЎРѕС…СЂР°РЅРёС‚СЊ']");
 
     public static void sendToReconciliation (String s) throws InterruptedException {
         SelenideElement firstRequest = $(FIRST_REQUEST).shouldBe(visible);
@@ -54,10 +54,16 @@ public class IncomingRequestsPage extends PageBase {
         waitUntilLoading();
     }
 
+
+
+
+
     public static void clickButtonSave () throws InterruptedException {
         $(BUTTON_SAVE).click();
         waitUntilLoading();
         Thread.sleep(2500);
     }
+
+
 
 }

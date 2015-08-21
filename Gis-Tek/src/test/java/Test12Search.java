@@ -17,8 +17,8 @@ public class Test12Search extends TestBase{
 
     private static final String USER = "user";
     private static final String USER_PASSWORD = "password";
-    private static final String GROUP = "Тестовая 3";
-    private static final String DIRECTORY = "Справочник 6";
+    private static final String GROUP = "РўРµСЃС‚РѕРІР°СЏ 3";
+    private static final String DIRECTORY = "РЎРїСЂР°РІРѕС‡РЅРёРє 6";
 
     @BeforeMethod
     public static void start() {

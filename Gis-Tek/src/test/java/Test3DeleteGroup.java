@@ -19,9 +19,9 @@ public class Test3DeleteGroup extends TestBase {
     private static final String USER_PASSWORD = "password";
     private static final String MANAGER = "manager";
     private static final String MANAGER_PASSWORD2 = "manager";
-    private static final String RECONCILIATION_PROCESS = "Подтверждение одним менеджером (ETL) - 10";
+    private static final String RECONCILIATION_PROCESS = "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕРґРЅРёРј РјРµРЅРµРґР¶РµСЂРѕРј (ETL) - 10";
     private static String KEY = "nuclear";
-    private static String NAMES = "Ядерная энергетика";
+    private static String NAMES = "РЇРґРµСЂРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
 
     @BeforeMethod
     public static void start() {

@@ -20,12 +20,12 @@ public class Test6DeleteDirectory extends TestBase {
     private static final String USER_PASSWORD = "password";
     private static final String MANAGER = "manager";
     private static final String MANAGER_PASSWORD = "manager";
-    private static final String RECONCILIATION_PROCESS = "Подтверждение одним менеджером (ETL) - 14";
+    private static final String RECONCILIATION_PROCESS = "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕРґРЅРёРј РјРµРЅРµРґР¶РµСЂРѕРј (ETL) - 14";
 
-    private static String NAMES = "Ядерная энергетика";
+    private static String NAMES = "РЇРґРµСЂРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
     private static String KEY = "nuclear";
-    private static String TYPE = "Всё о ядерной энергии";
-    private static String REQUEST_NAME = "ЯДЕРНАЯ";
+    private static String TYPE = "Р’СЃС‘ Рѕ СЏРґРµСЂРЅРѕР№ СЌРЅРµСЂРіРёРё";
+    private static String REQUEST_NAME = "РЇР”Р•Р РќРђРЇ";
 
     @BeforeMethod
     public static void start() {

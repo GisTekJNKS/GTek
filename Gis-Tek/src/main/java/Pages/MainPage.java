@@ -24,30 +24,30 @@ import static com.codeborne.selenide.Selenide.$;
 public class MainPage extends PageBase {
 
 
-    private static final By BUTTON_CREATE_GROUP = By.xpath("//button[text()='Создать группу']");
-    private static final By BUTTON_EDIT_GROUP = By.xpath("//button[text()='Редактировать группу']");
-    private static final By BUTTON_CREATE_DIRECTORY = By.xpath("//button[text()='Создать справочник']");
-    private static final By BUTTON_DELETE_GROUP = By.xpath("//button[text()='Удалить группу']");
-    private static final By BUTTON_DELETE = By.xpath("//button[text()='Удалить']");
-    private static final By BUTTON_DELETE_DIRECTORY = By.xpath("//button[text()='Удалить']");
-    private static final By BUTTON_ADD_VERSION = By.xpath("//button[text()='Добавить версию']");
-    private static final By BUTTON_EXCHANGE_VERSION = By.xpath("//button[text()='Изменить версию']");
-    private static final By BUTTON_DELETE_ITEM = By.xpath("//button[text()='Удалить запись']");
-    private static final By BUTTON_EDIT_DIRECTORY = By.xpath("//button[text()='Редактировать']");
-    private static final By BUTTON_ADD = By.xpath("//button[text()='Добавить']");
+    private static final By BUTTON_CREATE_GROUP = By.xpath("//button[text()='РЎРѕР·РґР°С‚СЊ РіСЂСѓРїРїСѓ']");
+    private static final By BUTTON_EDIT_GROUP = By.xpath("//button[text()='Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ РіСЂСѓРїРїСѓ']");
+    private static final By BUTTON_CREATE_DIRECTORY = By.xpath("//button[text()='РЎРѕР·РґР°С‚СЊ СЃРїСЂР°РІРѕС‡РЅРёРє']");
+    private static final By BUTTON_DELETE_GROUP = By.xpath("//button[text()='РЈРґР°Р»РёС‚СЊ РіСЂСѓРїРїСѓ']");
+    private static final By BUTTON_DELETE = By.xpath("//button[text()='РЈРґР°Р»РёС‚СЊ']");
+    private static final By BUTTON_DELETE_DIRECTORY = By.xpath("//button[text()='РЈРґР°Р»РёС‚СЊ']");
+    private static final By BUTTON_ADD_VERSION = By.xpath("//button[text()='Р”РѕР±Р°РІРёС‚СЊ РІРµСЂСЃРёСЋ']");
+    private static final By BUTTON_EXCHANGE_VERSION = By.xpath("//button[text()='РР·РјРµРЅРёС‚СЊ РІРµСЂСЃРёСЋ']");
+    private static final By BUTTON_DELETE_ITEM = By.xpath("//button[text()='РЈРґР°Р»РёС‚СЊ Р·Р°РїРёСЃСЊ']");
+    private static final By BUTTON_EDIT_DIRECTORY = By.xpath("//button[text()='Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ']");
+    private static final By BUTTON_ADD = By.xpath("//button[text()='Р”РѕР±Р°РІРёС‚СЊ']");
 
     private static final By KEY = By.cssSelector("input[data-reactid$='.0.1.0.0.1.1']");
     private static final By SHORT_NAME = By.cssSelector("input[data-reactid$='.0.1.0.0.2.1']");
     private static final By FULL_NAME = By.cssSelector("input[data-reactid$='.0.1.0.0.3.1']");
-    private static final By BUTTON_SAVE = By.xpath("//button[text()='Сохранить']");
+    private static final By BUTTON_SAVE = By.xpath("//button[text()='РЎРѕС…СЂР°РЅРёС‚СЊ']");
     private static final By RECONCILIATION_PROCESS = By.id("processDefenitionId");
     private static final By FULL_NAME_ON_GROUP_INFORMATION = By.cssSelector("span[data-reactid$='0.3.1.1']");
-    private static final By BUTTON_NEW_ITEM = By.xpath("//button[text()='Новая запись']");
+    private static final By BUTTON_NEW_ITEM = By.xpath("//button[text()='РќРѕРІР°СЏ Р·Р°РїРёСЃСЊ']");
 
 
     public static void clickButtonCreateGroup() {
         $(BUTTON_CREATE_GROUP).click();
-        $(By.xpath("//h2[text()='Создать группу']")).waitUntil(visible, 20000);
+        $(By.xpath("//h2[text()='РЎРѕР·РґР°С‚СЊ РіСЂСѓРїРїСѓ']")).waitUntil(visible, 20000);
     }
 
     public static void selectReconciliationProcess(String s) {
@@ -89,7 +89,7 @@ public class MainPage extends PageBase {
 
     public static void clickButtonEditGroup() {
         $(BUTTON_EDIT_GROUP).click();
-        $(By.xpath("//h2[text()='Редактировать группу']")).waitUntil(visible, 20000);
+        $(By.xpath("//h2[text()='Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ РіСЂСѓРїРїСѓ']")).waitUntil(visible, 20000);
     }
 
     public static void checkFullNameOnGroupInformationForm(String s) {
@@ -131,7 +131,7 @@ public class MainPage extends PageBase {
     public static void clickButtonNewItem() {
         $(BUTTON_NEW_ITEM).click();
         waitUntilLoading();
-        $(".aui-dialog2-header-main").shouldBe(visible).shouldHave(text("Добавить запись"));
+        $(".aui-dialog2-header-main").shouldBe(visible).shouldHave(text("Р”РѕР±Р°РІРёС‚СЊ Р·Р°РїРёСЃСЊ"));
     }
 
     public static void checkAddedProperties(String firstProperty, String secondProperty, String thirdProperty) {
@@ -139,7 +139,7 @@ public class MainPage extends PageBase {
         properties.get(0).should(exist).shouldHave(text(firstProperty));
         properties.get(1).should(exist).shouldHave(text(secondProperty));
         properties.get(3).should(exist).shouldHave(text(thirdProperty));
-        properties.get(4).should(exist).shouldHave(text("Новое свойство"));
+        properties.get(4).should(exist).shouldHave(text("РќРѕРІРѕРµ СЃРІРѕР№СЃС‚РІРѕ"));
     }
 
     public static void showDirectoryInformation(String s) {
@@ -180,7 +180,7 @@ public class MainPage extends PageBase {
 
     public static void clickButtonSettings() {
         $(By.cssSelector("span[class='glyphicon glyphicon-cog']")).click();
-        $(".aui-dialog2-header-main").shouldBe(visible);//shouldHave(text("Добавить запись"));
+        $(".aui-dialog2-header-main").shouldBe(visible);//shouldHave(text("Р”РѕР±Р°РІРёС‚СЊ Р·Р°РїРёСЃСЊ"));
     }
 
     public static void setOneDisplayedElement() {
@@ -198,7 +198,7 @@ public class MainPage extends PageBase {
 
     public static void clickButtonAddVersion() {
         $(BUTTON_ADD_VERSION).click();
-        $(".aui-dialog2-header-main").waitUntil(visible, 3000).shouldHave(text("Добавить версию"));
+        $(".aui-dialog2-header-main").waitUntil(visible, 3000).shouldHave(text("Р”РѕР±Р°РІРёС‚СЊ РІРµСЂСЃРёСЋ"));
     }
 
     public static void inputStartDateVersion(String s) {
@@ -219,12 +219,12 @@ public class MainPage extends PageBase {
     }
 
     public static void checkAddedVersion(String dateStart, String dateEnd) {
-        $$(".aui-item").get(1).$(By.xpath("//h3[text()='Другие версии']")).shouldHave(text("Другие версии"));
+        $$(".aui-item").get(1).$(By.xpath("//h3[text()='Р”СЂСѓРіРёРµ РІРµСЂСЃРёРё']")).shouldHave(text("Р”СЂСѓРіРёРµ РІРµСЂСЃРёРё"));
         assertEquals($$(".aui-item").get(1).$(".aui-nav").$$(By.tagName("li")).size(), 2);
         StringBuffer sb = new StringBuffer();
-        sb.append("с ");
+        sb.append("СЃ ");
         sb.append(dateStart);
-        sb.append(" по ");
+        sb.append(" РїРѕ ");
         sb.append(dateEnd);
         String ss = sb.toString();
         assertEquals($$(".aui-item").get(1).$(".aui-nav").$$(By.tagName("a")).get(1).getText().toString(), ss);
@@ -232,11 +232,11 @@ public class MainPage extends PageBase {
 
     public static void checkEditedVersion(String name, String dateEnd) {
         $(By.cssSelector("div[class='text input--text']")).shouldHave(text(name));
-        $$(".aui-item").get(1).$(By.xpath("//h3[text()='Другие версии']")).shouldHave(text("Другие версии"));
+        $$(".aui-item").get(1).$(By.xpath("//h3[text()='Р”СЂСѓРіРёРµ РІРµСЂСЃРёРё']")).shouldHave(text("Р”СЂСѓРіРёРµ РІРµСЂСЃРёРё"));
         StringBuffer sb = new StringBuffer();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         Date convertedCurrentDate = new Date();
-        sb.append("с ").append(sdf.format(convertedCurrentDate)).append(" по ").append(dateEnd);
+        sb.append("СЃ ").append(sdf.format(convertedCurrentDate)).append(" РїРѕ ").append(dateEnd);
         String ss = sb.toString();
         assertEquals($$(".aui-item").get(1).$(".aui-nav").$$(By.tagName("a")).get(0).getText().toString(), ss);
 
@@ -244,7 +244,7 @@ public class MainPage extends PageBase {
 
     public static void clickButtonExchangeVersion() {
         $(BUTTON_EXCHANGE_VERSION).click();
-        $(".aui-dialog2-header-main").waitUntil(visible, 3000).shouldHave(text("Изменить версию"));
+        $(".aui-dialog2-header-main").waitUntil(visible, 3000).shouldHave(text("РР·РјРµРЅРёС‚СЊ РІРµСЂСЃРёСЋ"));
     }
 
     public static void clickButtonDeleteItem() {
@@ -253,7 +253,7 @@ public class MainPage extends PageBase {
     }
 
     public static void checkItemWasDeleted() {
-        $(".griddle.griddle-nodata").should(exist).$(By.xpath("//div[text()='Нет данных']")).should(exist);
+        $(".griddle.griddle-nodata").should(exist).$(By.xpath("//div[text()='РќРµС‚ РґР°РЅРЅС‹С…']")).should(exist);
     }
 
     public static void search(String nameOfDoc){
@@ -264,7 +264,7 @@ public class MainPage extends PageBase {
 
     public static void clickButtonEditDirectory (){
         $(BUTTON_EDIT_DIRECTORY).click();
-        $(".aui-dialog2-header-main").waitUntil(visible, 30000).shouldHave(text("Редактирование справочника"));
+        $(".aui-dialog2-header-main").waitUntil(visible, 30000).shouldHave(text("Р РµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ СЃРїСЂР°РІРѕС‡РЅРёРєР°"));
     }
 
     public static void clickButtonAdd(){
@@ -303,17 +303,17 @@ public class MainPage extends PageBase {
 
     public static void checkHierarchicalElements (){
         $(".aui-button.active").should(exist).shouldBe(visible);
-        $(By.cssSelector("button[title='Табличный режим']")).should(exist).shouldBe(visible);
+        $(By.cssSelector("button[title='РўР°Р±Р»РёС‡РЅС‹Р№ СЂРµР¶РёРј']")).should(exist).shouldBe(visible);
         $("#parentField").should(exist).shouldBe(visible);
     }
 
     public static void checkSubPropertyAddresCreatorBlock (){
-        $(".form__sub.form__sub--error>h5 span").should(exist).shouldHave(text("Адрес"));
+        $(".form__sub.form__sub--error>h5 span").should(exist).shouldHave(text("РђРґСЂРµСЃ"));
     }
 
     public static void checkSubPropertyAddresApproversBlock (){
         SelenideElement approvers = $(".form__list ");
-        approvers.$(".form__sub.form__sub--error>h5 span").should(exist).shouldHave(text("Адрес"));
+        approvers.$(".form__sub.form__sub--error>h5 span").should(exist).shouldHave(text("РђРґСЂРµСЃ"));
     }
 
     public static void checkImportedElementsOfItem (String title,String stroka_2,String dateStart,String dateEnd){
@@ -334,9 +334,9 @@ public class MainPage extends PageBase {
     }
 
     public static void checkErrorMessages (){
-        $(By.xpath("//div[text()='Поле \"Проверка 1\" должно быть числом']"));
-        $(By.xpath("//div[text()='Поле \"Проверка 2\" должно быть целочисленным']"));
-        $(By.xpath("//div[text()='Поле \"Проверка 3\" должно быть датой в виде ГГГГ-ММ-ДД']"));
+        $(By.xpath("//div[text()='РџРѕР»Рµ \"РџСЂРѕРІРµСЂРєР° 1\" РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ С‡РёСЃР»РѕРј']"));
+        $(By.xpath("//div[text()='РџРѕР»Рµ \"РџСЂРѕРІРµСЂРєР° 2\" РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ С†РµР»РѕС‡РёСЃР»РµРЅРЅС‹Рј']"));
+        $(By.xpath("//div[text()='РџРѕР»Рµ \"РџСЂРѕРІРµСЂРєР° 3\" РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РґР°С‚РѕР№ РІ РІРёРґРµ Р“Р“Р“Р“-РњРњ-Р”Р”']"));
     }
 
 }

@@ -15,14 +15,15 @@ import static com.codeborne.selenide.Selenide.open;
 @Listeners(ScreenFailure.class)
 public class Test2EditGroup extends TestBase {
 
+
     private static final String USER = "user";
     private static final String USER_PASSWORD = "password";
     private static final String MANAGER = "manager";
     private static final String MANAGER_PASSWORD = "manager";
-    private static final String RECONCILIATION_PROCESS = "Подтверждение одним менеджером (ETL) - 10";
+    private static final String RECONCILIATION_PROCESS = "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕРґРЅРёРј РјРµРЅРµРґР¶РµСЂРѕРј (ETL) - 10";
     private static String KEY = "nuclear";
-    private static String NAMES = "Ядерная энергетика";
-    private static String EDITED_FULLNAME = "Атомная энергетика";
+    private static String NAMES = "РЇРґРµСЂРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
+    private static String EDITED_FULLNAME = "РђС‚РѕРјРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
 
     @BeforeMethod
     public static void start() {

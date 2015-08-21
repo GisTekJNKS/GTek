@@ -19,18 +19,18 @@ public class Test10ChangeVersion extends TestBase {
     private static final String USER_PASSWORD = "password";
     private static final String MANAGER = "manager";
     private static final String MANAGER_PASSWORD = "manager";
-    private static final String RECONCILIATION_PROCESS = "Подтверждение одним менеджером (ETL) - 14";
+    private static final String RECONCILIATION_PROCESS = "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕРґРЅРёРј РјРµРЅРµРґР¶РµСЂРѕРј (ETL) - 14";
     private static final String END_DATE_OF_NEW_ITEM = "2016-09-17";
     private static final String END_DATE_OF_NEW_ITEM2 = "2016-09-27";
 
-    private static String SHORT_NAME_OF_ITEM = "Краткое имя";
-    private static String FULL_NAME_OF_ITEM = "Полное имя";
-    private static String NAMES = "Ядерная энергетика";
+    private static String SHORT_NAME_OF_ITEM = "РљСЂР°С‚РєРѕРµ РёРјСЏ";
+    private static String FULL_NAME_OF_ITEM = "РџРѕР»РЅРѕРµ РёРјСЏ";
+    private static String NAMES = "РЇРґРµСЂРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
     private static String KEY = "nuclear";
-    private static String TYPE = "Всё о ядерной энергии";
-    private static String REQUEST_NAME = "ЯДЕРНАЯ";
-    private static String NAME_OF_NEW_ITEM ="Тест";
-    private static String NAME_OF_NEW_ITEM2 ="Тест";
+    private static String TYPE = "Р’СЃС‘ Рѕ СЏРґРµСЂРЅРѕР№ СЌРЅРµСЂРіРёРё";
+    private static String REQUEST_NAME = "РЇР”Р•Р РќРђРЇ";
+    private static String NAME_OF_NEW_ITEM ="РўРµСЃС‚";
+    private static String NAME_OF_NEW_ITEM2 ="РўРµСЃС‚";
 
 
 

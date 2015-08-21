@@ -19,17 +19,17 @@ public class Test13CreateComplexDirectory extends TestBase {
     private static final String USER_PASSWORD = "password";
     private static final String MANAGER = "manager";
     private static final String MANAGER_PASSWORD = "manager";
-    private static final String RECONCILIATION_PROCESS = "Подтверждение одним менеджером (ETL) - 14";
-    private static final String TYPE_OF_PROPERTY1 = "Составной";
-    private static final String TYPE_OF_PROPERTY2 = "Список";
-    private static final String TYPE_OF_PROPERTY = "ФИО";
+    private static final String RECONCILIATION_PROCESS = "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕРґРЅРёРј РјРµРЅРµРґР¶РµСЂРѕРј (ETL) - 14";
+    private static final String TYPE_OF_PROPERTY1 = "РЎРѕСЃС‚Р°РІРЅРѕР№";
+    private static final String TYPE_OF_PROPERTY2 = "РЎРїРёСЃРѕРє";
+    private static final String TYPE_OF_PROPERTY = "Р¤РРћ";
 
-    private static String NAMES = "Ядерная энергетика";
+    private static String NAMES = "РЇРґРµСЂРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
     private static String KEY = "nuclear";
-    private static String TYPE = "Всё о ядерной энергии";
-    private static String REQUEST_NAME = "ЯДЕРНАЯ";
-    private static String PROPERTY= "Создатель";
-    private static String ADDED_PROPERTY="Утверждающие";
+    private static String TYPE = "Р’СЃС‘ Рѕ СЏРґРµСЂРЅРѕР№ СЌРЅРµСЂРіРёРё";
+    private static String REQUEST_NAME = "РЇР”Р•Р РќРђРЇ";
+    private static String PROPERTY= "РЎРѕР·РґР°С‚РµР»СЊ";
+    private static String ADDED_PROPERTY="РЈС‚РІРµСЂР¶РґР°СЋС‰РёРµ";
 
 
     @BeforeMethod

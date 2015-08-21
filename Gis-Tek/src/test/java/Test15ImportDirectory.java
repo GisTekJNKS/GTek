@@ -19,12 +19,12 @@ public class Test15ImportDirectory extends TestBase {
     private static final String USER_PASSWORD = "password";
     private static final String MANAGER = "manager";
     private static final String MANAGER_PASSWORD = "manager";
-    private static final String RECONCILIATION_PROCESS = "Подтверждение одним менеджером (ETL) - 14";
+    private static final String RECONCILIATION_PROCESS = "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕРґРЅРёРј РјРµРЅРµРґР¶РµСЂРѕРј (ETL) - 14";
 
-    private static String NAMES = "Ядерная энергетика";
+    private static String NAMES = "РЇРґРµСЂРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
     private static String KEY = "nuclear";
-    private static String TYPE = "ИМПОРТ";
-    private static String REQUEST_NAME = "ЯДЕРНАЯ";
+    private static String TYPE = "РРњРџРћР Рў";
+    private static String REQUEST_NAME = "РЇР”Р•Р РќРђРЇ";
 
     @BeforeMethod
     public static void start() {
@@ -99,7 +99,7 @@ public class Test15ImportDirectory extends TestBase {
         MainMenu.goToObjectsNSI();
         MainPage.showGroupInformation(NAMES);
         MainPage.showDirectoryInformation(TYPE);
-        MainPage.showItemInformation("семь");
-        MainPage.checkImportedElementsOfItem("семь","7","2015-04-11","2016-05-11");
+        MainPage.showItemInformation("СЃРµРјСЊ");
+        MainPage.checkImportedElementsOfItem("СЃРµРјСЊ","7","2015-04-11","2016-05-11");
     }
 }

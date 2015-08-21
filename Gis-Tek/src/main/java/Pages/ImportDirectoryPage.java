@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class ImportDirectoryPage extends PageBase {
 
     private static final By KEY_OF_DIRECTORY = By.tagName("select");
-    private static final By BUTTON_UPLOAD = By.cssSelector("input[value='Импортировать']");
+    private static final By BUTTON_UPLOAD = By.cssSelector("input[value='РРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ']");
     private static final By BROWSE = By.className("upfile");
 
 
@@ -24,7 +24,7 @@ public class ImportDirectoryPage extends PageBase {
 
     public static void clickButtonUpload(){
         $(BUTTON_UPLOAD).click();
-        $(By.xpath("//span[text()='Справочник успешно загружен']")).should(exist).shouldBe(visible).shouldHave(text("Справочник успешно загружен"));
+        $(By.xpath("//span[text()='РЎРїСЂР°РІРѕС‡РЅРёРє СѓСЃРїРµС€РЅРѕ Р·Р°РіСЂСѓР¶РµРЅ']")).should(exist).shouldBe(visible).shouldHave(text("РЎРїСЂР°РІРѕС‡РЅРёРє СѓСЃРїРµС€РЅРѕ Р·Р°РіСЂСѓР¶РµРЅ"));
     }
 
     public static void uploadDirectory (){

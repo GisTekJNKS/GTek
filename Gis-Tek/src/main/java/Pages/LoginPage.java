@@ -34,7 +34,7 @@ public class LoginPage extends PageBase {
         LoginPage.inputPassword(password);
         LoginPage.clickButtonEnter();
         waitUntilLoading();
-        open("/");//”¡–¿“‹ œ–» »—œ–¿¬À≈Õ»» ¡¿√¿ — ¬»—ﬂŸ≈… «¿√–”« Œ…
+        open("/");//–£–ë–†–ê–¢–¨ –ü–†–ò –ò–°–ü–†–ê–í–õ–ï–ù–ò–ò –ë–ê–ì–ê –° –í–ò–°–Ø–©–ï–ô –ó–ê–ì–†–£–ó–ö–û–ô
     }
 }
 

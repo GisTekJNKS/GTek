@@ -19,12 +19,12 @@ public class Test16ValidationFields extends TestBase {
     private static final String USER_PASSWORD = "password";
     private static final String MANAGER = "manager";
     private static final String MANAGER_PASSWORD = "manager";
-    private static final String RECONCILIATION_PROCESS = "Подтверждение одним менеджером (ETL) - 14";
+    private static final String RECONCILIATION_PROCESS = "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕРґРЅРёРј РјРµРЅРµРґР¶РµСЂРѕРј (ETL) - 14";
 
-    private static String NAMES = "Ядерная энергетика";
+    private static String NAMES = "РЇРґРµСЂРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
     private static String KEY = "nuclear";
-    private static String TYPE = "Проверка валидации полей";
-    private static String REQUEST_NAME = "ЯДЕРНАЯ";
+    private static String TYPE = "РџСЂРѕРІРµСЂРєР° РІР°Р»РёРґР°С†РёРё РїРѕР»РµР№";
+    private static String REQUEST_NAME = "РЇР”Р•Р РќРђРЇ";
 
     @BeforeMethod
     public static void start() {
@@ -65,16 +65,16 @@ public class Test16ValidationFields extends TestBase {
         CreateEditDirectoryForm.clickButtonNewType();
         CreateEditDirectoryForm.inputTypeName(TYPE);
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Проверка 1");
-        CreateEditDirectoryForm.selectType("Число");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("РџСЂРѕРІРµСЂРєР° 1");
+        CreateEditDirectoryForm.selectType("Р§РёСЃР»Рѕ");
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Проверка 2");
-        CreateEditDirectoryForm.selectType("Целое");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("РџСЂРѕРІРµСЂРєР° 2");
+        CreateEditDirectoryForm.selectType("Р¦РµР»РѕРµ");
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Проверка 3");
-        CreateEditDirectoryForm.selectType("Дата");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("РџСЂРѕРІРµСЂРєР° 3");
+        CreateEditDirectoryForm.selectType("Р”Р°С‚Р°");
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Проверка 4");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("РџСЂРѕРІРµСЂРєР° 4");
         MainPage.clickButtonSave();
         MainMenu.goToFormationRequestForChangesPage();
         FormationRequestForChangesPage.tapAddedDirectoryCheckbox(TYPE);
@@ -93,9 +93,9 @@ public class Test16ValidationFields extends TestBase {
         MainPage.showGroupInformation(NAMES);
         MainPage.showDirectoryInformation(TYPE);
         MainPage.clickButtonNewItem();
-        MainPage.inputNameOfNewItem("раздватри");
-        MainPage.inputShortNameOfNewItem("раздватри");
-        MainPage.inputFieldsOfAddedProperties("один", "5споловиной", "2015-35-11", "123-12-235споловинойодин");
+        MainPage.inputNameOfNewItem("СЂР°Р·РґРІР°С‚СЂРё");
+        MainPage.inputShortNameOfNewItem("СЂР°Р·РґРІР°С‚СЂРё");
+        MainPage.inputFieldsOfAddedProperties("РѕРґРёРЅ", "5СЃРїРѕР»РѕРІРёРЅРѕР№", "2015-35-11", "123-12-235СЃРїРѕР»РѕРІРёРЅРѕР№РѕРґРёРЅ");
         MainPage.checkErrorMessages();
-    }
+       }
 }

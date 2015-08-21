@@ -2,28 +2,5 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Base/PageBase.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Base/TestBase.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Helpers/ScreenFailure.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Pages/CreateEditDirectoryForm.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Pages/ImportDirectoryPage.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Pages/IncomingRequestsPage.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Pages/MainMenu.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test10ChangeVersion.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test11DeleteItem.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test12Search.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test13CreateComplexDirectory.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test14EditComplexDirectory.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test15ImportDirectory.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test16ValidationFields.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test1CreatingGroup.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test2EditGroup.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test3DeleteGroup.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test4CreationDirectory.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test6DeleteDirectory.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test8CountOfDisplayedItemsOnPage.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/src/test/java/Test9AddVersionOfItem.java" charset="windows-1251" />
   </component>
 </project>

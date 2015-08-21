@@ -19,17 +19,17 @@ public class Test14EditComplexDirectory extends TestBase {
     private static final String USER_PASSWORD = "password";
     private static final String MANAGER = "manager";
     private static final String MANAGER_PASSWORD = "manager";
-    private static final String RECONCILIATION_PROCESS = "Подтверждение одним менеджером (ETL) - 14";
-    private static final String TYPE_OF_PROPERTY1 = "Составной";
-    private static final String TYPE_OF_PROPERTY2 = "Список";
-    private static final String TYPE_OF_PROPERTY = "ФИО";
+    private static final String RECONCILIATION_PROCESS = "РџРѕРґС‚РІРµСЂР¶РґРµРЅРёРµ РѕРґРЅРёРј РјРµРЅРµРґР¶РµСЂРѕРј (ETL) - 14";
+    private static final String TYPE_OF_PROPERTY1 = "РЎРѕСЃС‚Р°РІРЅРѕР№";
+    private static final String TYPE_OF_PROPERTY2 = "РЎРїРёСЃРѕРє";
+    private static final String TYPE_OF_PROPERTY = "Р¤РРћ";
 
-    private static String NAMES = "Ядерная энергетика";
+    private static String NAMES = "РЇРґРµСЂРЅР°СЏ СЌРЅРµСЂРіРµС‚РёРєР°";
     private static String KEY = "nuclear";
-    private static String TYPE = "Утверждение документа";
-    private static String REQUEST_NAME = "ЯДЕРНАЯ";
-    private static String PROPERTY= "Создатель";
-    private static String ADDED_PROPERTY="Утверждающие";
+    private static String TYPE = "РЈС‚РІРµСЂР¶РґРµРЅРёРµ РґРѕРєСѓРјРµРЅС‚Р°";
+    private static String REQUEST_NAME = "РЇР”Р•Р РќРђРЇ";
+    private static String PROPERTY= "РЎРѕР·РґР°С‚РµР»СЊ";
+    private static String ADDED_PROPERTY="РЈС‚РІРµСЂР¶РґР°СЋС‰РёРµ";
 
 
     @BeforeMethod
@@ -101,25 +101,25 @@ public class Test14EditComplexDirectory extends TestBase {
         MainPage.showDirectoryInformation(TYPE);
         MainPage.clickButtonEditDirectory();
         CreateEditDirectoryForm.clickButtonAddType();
-        CreateEditDirectoryForm.inputTypeName("Адрес");
+        CreateEditDirectoryForm.inputTypeName("РђРґСЂРµСЃ");
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Индекс");
-        CreateEditDirectoryForm.selectType("Целое");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("РРЅРґРµРєСЃ");
+        CreateEditDirectoryForm.selectType("Р¦РµР»РѕРµ");
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Город");
-        CreateEditDirectoryForm.selectType("Строка");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Р“РѕСЂРѕРґ");
+        CreateEditDirectoryForm.selectType("РЎС‚СЂРѕРєР°");
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Улица");
-        CreateEditDirectoryForm.selectType("Строка");
-        CreateEditDirectoryForm.chooseDataType("ФИО");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("РЈР»РёС†Р°");
+        CreateEditDirectoryForm.selectType("РЎС‚СЂРѕРєР°");
+        CreateEditDirectoryForm.chooseDataType("Р¤РРћ");
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Адрес");
-        CreateEditDirectoryForm.selectType("Составной");
-        CreateEditDirectoryForm.selectType("Адрес");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("РђРґСЂРµСЃ");
+        CreateEditDirectoryForm.selectType("РЎРѕСЃС‚Р°РІРЅРѕР№");
+        CreateEditDirectoryForm.selectType("РђРґСЂРµСЃ");
         CreateEditDirectoryForm.chooseDataType(TYPE);
         CreateEditDirectoryForm.clickButtonAddProperty();
-        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Вышестоящий запрос");
-        CreateEditDirectoryForm.selectType("Справочник");
+        CreateEditDirectoryForm.inputNameOfNewAddedProperty("Р’С‹С€РµСЃС‚РѕСЏС‰РёР№ Р·Р°РїСЂРѕСЃ");
+        CreateEditDirectoryForm.selectType("РЎРїСЂР°РІРѕС‡РЅРёРє");
         CreateEditDirectoryForm.selectType(TYPE);
         MainPage.clickButtonSave();
         MainMenu.goToFormationRequestForChangesPage();
@@ -138,13 +138,13 @@ public class Test14EditComplexDirectory extends TestBase {
         MainMenu.goToObjectsNSI();
         MainPage.showGroupInformation(NAMES);
         MainPage.showDirectoryInformation(TYPE);
-        MainPage.checkHierarchicalElements();//87 Отображаются кнопки "Иерархический режим" и "Табличный режим". Отображается выпадающий список "Родительское поле"
+        MainPage.checkHierarchicalElements();//87 РћС‚РѕР±СЂР°Р¶Р°СЋС‚СЃСЏ РєРЅРѕРїРєРё "РРµСЂР°СЂС…РёС‡РµСЃРєРёР№ СЂРµР¶РёРј" Рё "РўР°Р±Р»РёС‡РЅС‹Р№ СЂРµР¶РёРј". РћС‚РѕР±СЂР°Р¶Р°РµС‚СЃСЏ РІС‹РїР°РґР°СЋС‰РёР№ СЃРїРёСЃРѕРє "Р РѕРґРёС‚РµР»СЊСЃРєРѕРµ РїРѕР»Рµ"
         MainPage.clickButtonNewItem();
-        MainPage.checkSubPropertyAddresCreatorBlock();//88В блоке "создатель" существует блок "Адрес"
-        MainPage.inputShortNameOfNewItem("Краткое имя");
-        MainPage.inputNameOfNewItem("Имя");
+        MainPage.checkSubPropertyAddresCreatorBlock();//88Р’ Р±Р»РѕРєРµ "СЃРѕР·РґР°С‚РµР»СЊ" СЃСѓС‰РµСЃС‚РІСѓРµС‚ Р±Р»РѕРє "РђРґСЂРµСЃ"
+        MainPage.inputShortNameOfNewItem("РљСЂР°С‚РєРѕРµ РёРјСЏ");
+        MainPage.inputNameOfNewItem("РРјСЏ");
         MainPage.clickButtonAdd();
-        MainPage.checkSubPropertyAddresApproversBlock();//Блок "адрес " отображается в блоке "Утверждающий"
+        MainPage.checkSubPropertyAddresApproversBlock();//Р‘Р»РѕРє "Р°РґСЂРµСЃ " РѕС‚РѕР±СЂР°Р¶Р°РµС‚СЃСЏ РІ Р±Р»РѕРєРµ "РЈС‚РІРµСЂР¶РґР°СЋС‰РёР№"
         MainPage.inputIndexes(220030);
         MainPage.clickButtonSave();
         MainMenu.goToFormationRequestForChangesPage();
@@ -162,13 +162,13 @@ public class Test14EditComplexDirectory extends TestBase {
         LoginPage.authorize(USER, USER_PASSWORD);
         MainPage.showGroupInformation(NAMES);
         MainPage.showDirectoryInformation(TYPE);
-        MainPage.checkAddedItem("Имя"); //Запись "привет" находиться в видимой части экрана
+        MainPage.checkAddedItem("РРјСЏ"); //Р—Р°РїРёСЃСЊ "РїСЂРёРІРµС‚" РЅР°С…РѕРґРёС‚СЊСЃСЏ РІ РІРёРґРёРјРѕР№ С‡Р°СЃС‚Рё СЌРєСЂР°РЅР°
         MainPage.clickButtonNewItem();
-        MainPage.inputShortNameOfNewItem("Краткое имя2");
-        MainPage.inputNameOfNewItem("Имя2");
+        MainPage.inputShortNameOfNewItem("РљСЂР°С‚РєРѕРµ РёРјСЏ2");
+        MainPage.inputNameOfNewItem("РРјСЏ2");
         MainPage.clickButtonAdd();
         MainPage.inputIndexes(220031);
-        MainPage.selectItem("Краткое имя");
+        MainPage.selectItem("РљСЂР°С‚РєРѕРµ РёРјСЏ");
         MainPage.clickButtonSave();
         MainMenu.goToFormationRequestForChangesPage();
         FormationRequestForChangesPage.tapAddedNewItemCheckbox(TYPE);
@@ -187,6 +187,6 @@ public class Test14EditComplexDirectory extends TestBase {
         MainPage.showDirectoryInformation(TYPE);
         MainPage.chooseHierarchicalMode();
         MainPage.openHierarchicalTree();
-        MainPage.checkChildItem("Имя2");
+        MainPage.checkChildItem("РРјСЏ2");
     }
 }

@@ -13,11 +13,11 @@ import static com.codeborne.selenide.WebDriverRunner.clearBrowserCache;
  */
 public class MainMenu extends PageBase {
 
-    private static final By OBJECTS_NSI = By.xpath("//a[text()='Объекты НСИ']");
-    private static final By IMPORT_DIRECTORY = By.xpath("//a[text()='Импорт справочников']");
-    private static final By FORMATION_REQUEST_FOR_CHANGES = By.xpath("//a[text()='Формирование запроса изменений']");
-    private static final By INCOMING_REQUESTS = By.xpath("//a[text()='Входящие заявки']");
-    private static final By QUIT = By.xpath("//button[text()='Выход']");
+    private static final By OBJECTS_NSI = By.xpath("//a[text()='РћР±СЉРµРєС‚С‹ РќРЎР']");
+    private static final By IMPORT_DIRECTORY = By.xpath("//a[text()='РРјРїРѕСЂС‚ СЃРїСЂР°РІРѕС‡РЅРёРєРѕРІ']");
+    private static final By FORMATION_REQUEST_FOR_CHANGES = By.xpath("//a[text()='Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ Р·Р°РїСЂРѕСЃР° РёР·РјРµРЅРµРЅРёР№']");
+    private static final By INCOMING_REQUESTS = By.xpath("//a[text()='Р’С…РѕРґСЏС‰РёРµ Р·Р°СЏРІРєРё']");
+    private static final By QUIT = By.xpath("//button[text()='Р’С‹С…РѕРґ']");
 
     public static void quite(){
         $(QUIT).click();
@@ -43,8 +43,13 @@ public class MainMenu extends PageBase {
     public static void goToImportDirectory (){
         $(IMPORT_DIRECTORY).click();
         waitUntilLoading();
-        $(By.cssSelector("input[value='Импортировать']")).should(exist).shouldBe(visible);
+        $(By.cssSelector("input[value='РРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ']")).should(exist).shouldBe(visible);
     }
+
+
+
+
+
 
 
 }

@@ -15,9 +15,9 @@ import static com.codeborne.selenide.Selenide.$$;
  */
 public class CreateEditDirectoryForm extends PageBase{
 
-    private static final By BUTTON_ADD_PROPERTY = By.xpath("//button[text()='Добавить свойство']");
-    private static final By TYPE = By.xpath("//div[text()='Новый тип']");
-    private static final By TYPE_NAME = By.cssSelector("input[value='Новый тип']");
+    private static final By BUTTON_ADD_PROPERTY = By.xpath("//button[text()='Р”РѕР±Р°РІРёС‚СЊ СЃРІРѕР№СЃС‚РІРѕ']");
+    private static final By TYPE = By.xpath("//div[text()='РќРѕРІС‹Р№ С‚РёРї']");
+    private static final By TYPE_NAME = By.cssSelector("input[value='РќРѕРІС‹Р№ С‚РёРї']");
 
     public static void showFieldsNames () {
         if ($(".glyphicon.glyphicon-menu-right").exists()){
@@ -26,20 +26,20 @@ public class CreateEditDirectoryForm extends PageBase{
     }
 
     public static void inputNameOfProperty(String s){
-        $("input[value='Наименование']").clear();
-        $("input[value='Наименование']").setValue(s);
+        $("input[value='РќР°РёРјРµРЅРѕРІР°РЅРёРµ']").clear();
+        $("input[value='РќР°РёРјРµРЅРѕРІР°РЅРёРµ']").setValue(s);
     }
 
 
 
     public static void clickButtonAddProperty() throws InterruptedException {
         $(BUTTON_ADD_PROPERTY).shouldBe(visible).click();
-        $(By.cssSelector("input[value='Новое свойство']")).shouldBe(visible);
+        $(By.cssSelector("input[value='РќРѕРІРѕРµ СЃРІРѕР№СЃС‚РІРѕ']")).shouldBe(visible);
     }
 
     public static void inputNameOfNewAddedProperty(String s){
-        $(By.cssSelector("input[value='Новое свойство']")).clear();
-        ElementsCollection ec = $$(By.cssSelector("input[value='Новое свойство']"));
+        $(By.cssSelector("input[value='РќРѕРІРѕРµ СЃРІРѕР№СЃС‚РІРѕ']")).clear();
+        ElementsCollection ec = $$(By.cssSelector("input[value='РќРѕРІРѕРµ СЃРІРѕР№СЃС‚РІРѕ']"));
         ec.get(ec.size() - 1).setValue(s);
     }
 
