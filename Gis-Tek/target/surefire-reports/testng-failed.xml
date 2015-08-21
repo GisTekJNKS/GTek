@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="Test9AddVersionOfItem">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test9AddVersionOfItem -->
+      <class name="Test16ValidationFields">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test16ValidationFields -->
+      <class name="Test15ImportDirectory">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test15ImportDirectory -->
+      <class name="Test1CreatingGroup">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test1CreatingGroup -->
+      <class name="Test12Search">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test12Search -->
+      <class name="Test14EditComplexDirectory">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test14EditComplexDirectory -->
+      <class name="Test5EditDirectory">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test5EditDirectory -->
+      <class name="Test11DeleteItem">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test11DeleteItem -->
+      <class name="Test3DeleteGroup">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test3DeleteGroup -->
+      <class name="Test13CreateComplexDirectory">
+        <methods>
+          <include name="setup"/>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test13CreateComplexDirectory -->
+      <class name="Test6DeleteDirectory">
+        <methods>
+          <include name="deleteDirectory"/>
+          <include name="setup"/>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test6DeleteDirectory -->
+      <class name="Test7NewItemInDirectory">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test7NewItemInDirectory -->
+      <class name="Test4CreationDirectory">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test4CreationDirectory -->
+      <class name="Test2EditGroup">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test2EditGroup -->
+      <class name="Test10ChangeVersion">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test10ChangeVersion -->
+      <class name="Test8CountOfDisplayedItemsOnPage">
+        <methods>
+          <include name="start"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Test8CountOfDisplayedItemsOnPage -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

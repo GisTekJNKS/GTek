@@ -1,0 +1,203 @@
+{
+  "time" : {
+    "start" : 1440073315915,
+    "stop" : 1440075759588,
+    "duration" : 2443673
+  },
+  "testSuites" : [ {
+    "uid" : "1290c5237ce7acb4",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test",
+    "time" : {
+      "start" : 1440073315915,
+      "stop" : 1440075759588,
+      "duration" : 2443673
+    },
+    "statistic" : {
+      "total" : 16,
+      "passed" : 15,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "58e5c9947b9c8e0",
+      "name" : "changeVersion",
+      "title" : "Change version",
+      "time" : {
+        "start" : 1440073315915,
+        "stop" : 1440073550283,
+        "duration" : 234368
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "74cb5dac8b973f79",
+      "name" : "deleteItemInDirectory",
+      "title" : "Delete item in directory",
+      "time" : {
+        "start" : 1440073557098,
+        "stop" : 1440073745160,
+        "duration" : 188062
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "67b82b9974df4203",
+      "name" : "search",
+      "title" : "Search",
+      "time" : {
+        "start" : 1440073751506,
+        "stop" : 1440073759428,
+        "duration" : 7922
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9cbe01289ff2d7f3",
+      "name" : "createComplexDirectory",
+      "title" : "Create complex directory",
+      "time" : {
+        "start" : 1440073765340,
+        "stop" : 1440073886527,
+        "duration" : 121187
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4743c8beba54c86e",
+      "name" : "editComplexDirectory",
+      "title" : "Edit complex directory",
+      "time" : {
+        "start" : 1440073892332,
+        "stop" : 1440074168707,
+        "duration" : 276375
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8a7e2b452dd0bc2c",
+      "name" : "importDirectory",
+      "title" : "Import directory",
+      "time" : {
+        "start" : 1440074173772,
+        "stop" : 1440074317346,
+        "duration" : 143574
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "aee9279d87b232ca",
+      "name" : "createDirectory",
+      "title" : "Create directory",
+      "time" : {
+        "start" : 1440074322429,
+        "stop" : 1440074441048,
+        "duration" : 118619
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5dbb73aa691087c7",
+      "name" : "createGroup",
+      "title" : "Create group",
+      "time" : {
+        "start" : 1440074446324,
+        "stop" : 1440074507544,
+        "duration" : 61220
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6be7b8cfbf36ce77",
+      "name" : "editGroup",
+      "title" : "Edit group",
+      "time" : {
+        "start" : 1440074512745,
+        "stop" : 1440074629687,
+        "duration" : 116942
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "319151e07bea4fe1",
+      "name" : "deleteGroup",
+      "title" : "Delete group",
+      "time" : {
+        "start" : 1440074634950,
+        "stop" : 1440074700664,
+        "duration" : 65714
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b9abfb4ee98f4a2e",
+      "name" : "createDirectory",
+      "title" : "Create directory",
+      "time" : {
+        "start" : 1440074705751,
+        "stop" : 1440074815682,
+        "duration" : 109931
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9267300a9a065289",
+      "name" : "editDirectory",
+      "title" : "Edit directory",
+      "time" : {
+        "start" : 1440074820864,
+        "stop" : 1440074989638,
+        "duration" : 168774
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "74f5a628d3f3f093",
+      "name" : "deleteDirectory",
+      "title" : "Delete directory",
+      "time" : {
+        "start" : 1440074994914,
+        "stop" : 1440075152245,
+        "duration" : 157331
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "8beed2f711e1a83c",
+      "name" : "addNewItemInDirectory",
+      "title" : "Add new item in directory",
+      "time" : {
+        "start" : 1440075157701,
+        "stop" : 1440075319279,
+        "duration" : 161578
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "91a681cde58bbbc0",
+      "name" : "countOfDisplayedItems",
+      "title" : "Count of displayed items",
+      "time" : {
+        "start" : 1440075324445,
+        "stop" : 1440075541449,
+        "duration" : 217004
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f5eea5f840589b9",
+      "name" : "addVersionOfItem",
+      "title" : "Add version of item",
+      "time" : {
+        "start" : 1440075546745,
+        "stop" : 1440075759588,
+        "duration" : 212843
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

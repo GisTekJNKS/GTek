@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2,459.754 sec <<< FAILURE! - in TestSuite
+deleteDirectory(Test6DeleteDirectory)  Time elapsed: 157.325 sec  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShould: Element should be hidden {.gost-loading-overlay}
+Element: '<div class="gost-loading-overlay" data-reactid=".0.2">Загрузка</div>'
+	at com.codeborne.selenide.impl.AbstractSelenideElement.checkCondition(AbstractSelenideElement.java:512)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.should(AbstractSelenideElement.java:476)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invokeShould(AbstractSelenideElement.java:299)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchSelenideMethod(AbstractSelenideElement.java:176)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchAndRetry(AbstractSelenideElement.java:92)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invoke(AbstractSelenideElement.java:67)
+	at com.codeborne.selenide.impl.WaitingSelenideElement.invoke(WaitingSelenideElement.java:18)
+	at com.sun.proxy.$Proxy5.waitUntil(Unknown Source)
+	at Base.PageBase.waitUntilLoading(PageBase.java:27)
+	at Pages.MainPage.clickButtonDelete(MainPage.java:124)
+	at Test6DeleteDirectory.deleteDirectory(Test6DeleteDirectory.java:87)
+

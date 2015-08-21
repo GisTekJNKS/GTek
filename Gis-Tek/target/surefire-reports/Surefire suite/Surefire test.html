@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 20 15:21:43 MSK 2015</td>
+</tr>
+<tr><td>Total time:</td><td>2456 seconds (2456444 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test6DeleteDirectory.deleteDirectory()'><b>deleteDirectory</b><br>Test class: Test6DeleteDirectory</td>
+<td><div><pre>Element should be hidden {.gost-loading-overlay}
+Element: &apos;&lt;div class=&quot;gost-loading-overlay&quot; data-reactid=&quot;.0.2&quot;&gt;Загрузка&lt;/div&gt;&apos;
+Screenshot: file:/C:/Users/John/IdeaProjects/Gis-Tek/build/reports/tests/1440075151588.0.png
+Timeout: 45 s.
+	at com.codeborne.selenide.impl.AbstractSelenideElement.checkCondition(AbstractSelenideElement.java:512)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.should(AbstractSelenideElement.java:476)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invokeShould(AbstractSelenideElement.java:299)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchSelenideMethod(AbstractSelenideElement.java:176)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchAndRetry(AbstractSelenideElement.java:92)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invoke(AbstractSelenideElement.java:67)
+	at com.codeborne.selenide.impl.WaitingSelenideElement.invoke(WaitingSelenideElement.java:18)
+	at com.sun.proxy.$Proxy5.waitUntil(Unknown Source)
+	at Base.PageBase.waitUntilLoading(PageBase.java:27)
+	at Pages.MainPage.clickButtonDelete(MainPage.java:124)
+	at Test6DeleteDirectory.deleteDirectory(Test6DeleteDirectory.java:87)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1558931350", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1558931350'><pre>Element should be hidden {.gost-loading-overlay}
+Element: &apos;&lt;div class=&quot;gost-loading-overlay&quot; data-reactid=&quot;.0.2&quot;&gt;Загрузка&lt;/div&gt;&apos;
+Screenshot: file:/C:/Users/John/IdeaProjects/Gis-Tek/build/reports/tests/1440075151588.0.png
+Timeout: 45 s.
+	at com.codeborne.selenide.impl.AbstractSelenideElement.checkCondition(AbstractSelenideElement.java:512)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.should(AbstractSelenideElement.java:476)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invokeShould(AbstractSelenideElement.java:299)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchSelenideMethod(AbstractSelenideElement.java:176)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchAndRetry(AbstractSelenideElement.java:92)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invoke(AbstractSelenideElement.java:67)
+	at com.codeborne.selenide.impl.WaitingSelenideElement.invoke(WaitingSelenideElement.java:18)
+	at com.sun.proxy.$Proxy5.waitUntil(Unknown Source)
+	at Base.PageBase.waitUntilLoading(PageBase.java:27)
+	at Pages.MainPage.clickButtonDelete(MainPage.java:124)
+	at Test6DeleteDirectory.deleteDirectory(Test6DeleteDirectory.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>156</td>
+<td>Test6DeleteDirectory@479f2dc2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test7NewItemInDirectory.addNewItemInDirectory()'><b>addNewItemInDirectory</b><br>Test class: Test7NewItemInDirectory</td>
+<td></td>
+<td>161</td>
+<td>Test7NewItemInDirectory@58a2b4c</td></tr>
+<tr>
+<td title='Test9AddVersionOfItem.addVersionOfItem()'><b>addVersionOfItem</b><br>Test class: Test9AddVersionOfItem</td>
+<td></td>
+<td>212</td>
+<td>Test9AddVersionOfItem@18ac53e8</td></tr>
+<tr>
+<td title='Test10ChangeVersion.changeVersion()'><b>changeVersion</b><br>Test class: Test10ChangeVersion</td>
+<td></td>
+<td>234</td>
+<td>Test10ChangeVersion@6f89292e</td></tr>
+<tr>
+<td title='Test8CountOfDisplayedItemsOnPage.countOfDisplayedItems()'><b>countOfDisplayedItems</b><br>Test class: Test8CountOfDisplayedItemsOnPage</td>
+<td></td>
+<td>217</td>
+<td>Test8CountOfDisplayedItemsOnPage@7159a5cd</td></tr>
+<tr>
+<td title='Test13CreateComplexDirectory.createComplexDirectory()'><b>createComplexDirectory</b><br>Test class: Test13CreateComplexDirectory</td>
+<td></td>
+<td>121</td>
+<td>Test13CreateComplexDirectory@69e05f61</td></tr>
+<tr>
+<td title='Test16ValidationFields.createDirectory()'><b>createDirectory</b><br>Test class: Test16ValidationFields</td>
+<td></td>
+<td>118</td>
+<td>Test16ValidationFields@7275c74b</td></tr>
+<tr>
+<td title='Test4CreationDirectory.createDirectory()'><b>createDirectory</b><br>Test class: Test4CreationDirectory</td>
+<td></td>
+<td>109</td>
+<td>Test4CreationDirectory@1eb2d371</td></tr>
+<tr>
+<td title='Test1CreatingGroup.createGroup()'><b>createGroup</b><br>Test class: Test1CreatingGroup</td>
+<td></td>
+<td>61</td>
+<td>Test1CreatingGroup@19058533</td></tr>
+<tr>
+<td title='Test3DeleteGroup.deleteGroup()'><b>deleteGroup</b><br>Test class: Test3DeleteGroup</td>
+<td></td>
+<td>65</td>
+<td>Test3DeleteGroup@42210be1</td></tr>
+<tr>
+<td title='Test11DeleteItem.deleteItemInDirectory()'><b>deleteItemInDirectory</b><br>Test class: Test11DeleteItem</td>
+<td></td>
+<td>188</td>
+<td>Test11DeleteItem@71f96dfb</td></tr>
+<tr>
+<td title='Test14EditComplexDirectory.editComplexDirectory()'><b>editComplexDirectory</b><br>Test class: Test14EditComplexDirectory</td>
+<td></td>
+<td>276</td>
+<td>Test14EditComplexDirectory@49a26d19</td></tr>
+<tr>
+<td title='Test5EditDirectory.editDirectory()'><b>editDirectory</b><br>Test class: Test5EditDirectory</td>
+<td></td>
+<td>168</td>
+<td>Test5EditDirectory@2babf189</td></tr>
+<tr>
+<td title='Test2EditGroup.editGroup()'><b>editGroup</b><br>Test class: Test2EditGroup</td>
+<td></td>
+<td>116</td>
+<td>Test2EditGroup@4315e9af</td></tr>
+<tr>
+<td title='Test15ImportDirectory.importDirectory()'><b>importDirectory</b><br>Test class: Test15ImportDirectory</td>
+<td></td>
+<td>143</td>
+<td>Test15ImportDirectory@730e5763</td></tr>
+<tr>
+<td title='Test12Search.search()'><b>search</b><br>Test class: Test12Search</td>
+<td></td>
+<td>7</td>
+<td>Test12Search@5d1b9c3d</td></tr>
+</table><p>
+</body>
+</html>

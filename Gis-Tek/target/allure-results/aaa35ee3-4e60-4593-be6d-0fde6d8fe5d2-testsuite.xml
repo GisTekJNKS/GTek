@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1440081780875" stop="1440082014510" version="1.4.10">
+    <name>Custom suite : Gis-Tek</name>
+    <title>Custom suite : Gis-Tek</title>
+    <test-cases>
+        <test-case start="1440081788684" stop="1440082013673" status="passed">
+            <name>countOfDisplayedItems</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Anders"/>
+                <label name="thread" value="6092@Anders.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

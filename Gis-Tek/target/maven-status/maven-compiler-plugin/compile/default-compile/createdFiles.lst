@@ -1,0 +1,10 @@
+Helpers\ScreenFailure.class
+Pages\ImportDirectoryPage.class
+Pages\MainPage.class
+Pages\FormationRequestForChangesPage.class
+Pages\MainMenu.class
+Base\PageBase.class
+Base\TestBase.class
+Pages\IncomingRequestsPage.class
+Pages\LoginPage.class
+Pages\CreateEditDirectoryForm.class

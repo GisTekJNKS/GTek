@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="2,361.506" tests="16" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
+    <property name="java.vm.version" value="25.51-b03"/>
+    <property name="user.country.format" value="RU"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\John\IdeaProjects\Gis-Tek"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\John\IdeaProjects\Gis-Tek"/>
+    <property name="java.runtime.version" value="1.8.0_51-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\John\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Maven\apache-maven-3.3.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_51bin;C:\Maven\apache-maven-3.3.3\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Skype\Phone\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\John"/>
+    <property name="user.timezone" value="Europe/Minsk"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="John"/>
+    <property name="java.class.path" value="C:\Maven\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_51\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_51"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_51\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Maven\apache-maven-3.3.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="changeVersion" classname="Test10ChangeVersion" time="234.416"/>
+  <testcase name="deleteItemInDirectory" classname="Test11DeleteItem" time="188.067"/>
+  <testcase name="search" classname="Test12Search" time="7.925"/>
+  <testcase name="createComplexDirectory" classname="Test13CreateComplexDirectory" time="121.188"/>
+  <testcase name="editComplexDirectory" classname="Test14EditComplexDirectory" time="276.376"/>
+  <testcase name="importDirectory" classname="Test15ImportDirectory" time="143.575"/>
+  <testcase name="createDirectory" classname="Test16ValidationFields" time="118.62"/>
+  <testcase name="createGroup" classname="Test1CreatingGroup" time="61.221"/>
+  <testcase name="editGroup" classname="Test2EditGroup" time="116.944"/>
+  <testcase name="deleteGroup" classname="Test3DeleteGroup" time="65.714"/>
+  <testcase name="createDirectory" classname="Test4CreationDirectory" time="109.932"/>
+  <testcase name="editDirectory" classname="Test5EditDirectory" time="168.775"/>
+  <testcase name="deleteDirectory" classname="Test6DeleteDirectory" time="157.325">
+    <failure message="Element should be hidden {.gost-loading-overlay}&#10;Element: &apos;&lt;div class=&quot;gost-loading-overlay&quot; data-reactid=&quot;.0.2&quot;&gt;Загрузка&lt;/div&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: Element should be hidden {.gost-loading-overlay}
+Element: '<div class="gost-loading-overlay" data-reactid=".0.2">Загрузка</div>'
+	at com.codeborne.selenide.impl.AbstractSelenideElement.checkCondition(AbstractSelenideElement.java:512)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.should(AbstractSelenideElement.java:476)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invokeShould(AbstractSelenideElement.java:299)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchSelenideMethod(AbstractSelenideElement.java:176)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchAndRetry(AbstractSelenideElement.java:92)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invoke(AbstractSelenideElement.java:67)
+	at com.codeborne.selenide.impl.WaitingSelenideElement.invoke(WaitingSelenideElement.java:18)
+	at com.sun.proxy.$Proxy5.waitUntil(Unknown Source)
+	at Base.PageBase.waitUntilLoading(PageBase.java:27)
+	at Pages.MainPage.clickButtonDelete(MainPage.java:124)
+	at Test6DeleteDirectory.deleteDirectory(Test6DeleteDirectory.java:87)
+]]></failure>
+    <system-err><![CDATA[авг 20, 2015 3:49:49 PM com.codeborne.selenide.impl.WebDriverThreadLocalContainer closeWebDriver
+INFO: Close webdriver: 1 -> FirefoxDriver: firefox on WINDOWS (c77b044b-63c9-41fe-928d-20b7b788a708)
+авг 20, 2015 3:49:50 PM com.codeborne.selenide.impl.WebDriverThreadLocalContainer closeWebDriver
+INFO: Closed webdriver in 469 ms
+авг 20, 2015 3:49:53 PM com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
+INFO: Create webdriver in current thread 1: firefox -> FirefoxDriver: firefox on WINDOWS (b4951a62-fd9c-4195-9d26-c9f42d9ad9ed)
+]]></system-err>
+  </testcase>
+  <testcase name="addNewItemInDirectory" classname="Test7NewItemInDirectory" time="161.58"/>
+  <testcase name="countOfDisplayedItems" classname="Test8CountOfDisplayedItemsOnPage" time="217.004"/>
+  <testcase name="addVersionOfItem" classname="Test9AddVersionOfItem" time="212.844"/>
+</testsuite>

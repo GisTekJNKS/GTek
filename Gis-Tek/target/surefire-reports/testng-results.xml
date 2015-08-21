@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="16" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="2456444" started-at="2015-08-20T12:21:43Z" finished-at="2015-08-20T13:02:39Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="2456444" started-at="2015-08-20T12:21:43Z" finished-at="2015-08-20T13:02:39Z">
+      <class name="Test4CreationDirectory">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test4CreationDirectory@1eb2d371]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-20T15:45:00Z" finished-at="2015-08-20T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test4CreationDirectory@1eb2d371]" name="start" is-config="true" duration-ms="4763" started-at="2015-08-20T15:45:00Z" finished-at="2015-08-20T15:45:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="createDirectory()[pri:0, instance:Test4CreationDirectory@1eb2d371]" name="createDirectory" duration-ms="109932" started-at="2015-08-20T15:45:05Z" finished-at="2015-08-20T15:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test4CreationDirectory@1eb2d371]" name="tearDown" is-config="true" duration-ms="399" started-at="2015-08-20T15:46:55Z" finished-at="2015-08-20T15:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test4CreationDirectory -->
+      <class name="Test8CountOfDisplayedItemsOnPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test8CountOfDisplayedItemsOnPage@7159a5cd]" name="setup" is-config="true" duration-ms="1" started-at="2015-08-20T15:55:19Z" finished-at="2015-08-20T15:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test8CountOfDisplayedItemsOnPage@7159a5cd]" name="start" is-config="true" duration-ms="4750" started-at="2015-08-20T15:55:19Z" finished-at="2015-08-20T15:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="countOfDisplayedItems()[pri:0, instance:Test8CountOfDisplayedItemsOnPage@7159a5cd]" name="countOfDisplayedItems" duration-ms="217004" started-at="2015-08-20T15:55:24Z" finished-at="2015-08-20T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countOfDisplayedItems -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test8CountOfDisplayedItemsOnPage@7159a5cd]" name="tearDown" is-config="true" duration-ms="392" started-at="2015-08-20T15:59:01Z" finished-at="2015-08-20T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test8CountOfDisplayedItemsOnPage -->
+      <class name="Test13CreateComplexDirectory">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test13CreateComplexDirectory@69e05f61]" name="setup" is-config="true" duration-ms="1" started-at="2015-08-20T15:29:19Z" finished-at="2015-08-20T15:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test13CreateComplexDirectory@69e05f61]" name="start" is-config="true" duration-ms="5495" started-at="2015-08-20T15:29:19Z" finished-at="2015-08-20T15:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="createComplexDirectory()[pri:0, instance:Test13CreateComplexDirectory@69e05f61]" name="createComplexDirectory" duration-ms="121188" started-at="2015-08-20T15:29:25Z" finished-at="2015-08-20T15:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createComplexDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test13CreateComplexDirectory@69e05f61]" name="tearDown" is-config="true" duration-ms="401" started-at="2015-08-20T15:31:26Z" finished-at="2015-08-20T15:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test13CreateComplexDirectory -->
+      <class name="Test7NewItemInDirectory">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test7NewItemInDirectory@58a2b4c]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-20T15:52:32Z" finished-at="2015-08-20T15:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test7NewItemInDirectory@58a2b4c]" name="start" is-config="true" duration-ms="4839" started-at="2015-08-20T15:52:32Z" finished-at="2015-08-20T15:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="addNewItemInDirectory()[pri:0, instance:Test7NewItemInDirectory@58a2b4c]" name="addNewItemInDirectory" duration-ms="161579" started-at="2015-08-20T15:52:37Z" finished-at="2015-08-20T15:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewItemInDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test7NewItemInDirectory@58a2b4c]" name="tearDown" is-config="true" duration-ms="414" started-at="2015-08-20T15:55:19Z" finished-at="2015-08-20T15:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test7NewItemInDirectory -->
+      <class name="Test9AddVersionOfItem">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test9AddVersionOfItem@18ac53e8]" name="setup" is-config="true" duration-ms="1" started-at="2015-08-20T15:59:01Z" finished-at="2015-08-20T15:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test9AddVersionOfItem@18ac53e8]" name="start" is-config="true" duration-ms="4903" started-at="2015-08-20T15:59:01Z" finished-at="2015-08-20T15:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="addVersionOfItem()[pri:0, instance:Test9AddVersionOfItem@18ac53e8]" name="addVersionOfItem" duration-ms="212843" started-at="2015-08-20T15:59:06Z" finished-at="2015-08-20T16:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addVersionOfItem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test9AddVersionOfItem@18ac53e8]" name="tearDown" is-config="true" duration-ms="370" started-at="2015-08-20T16:02:39Z" finished-at="2015-08-20T16:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test9AddVersionOfItem -->
+      <class name="Test1CreatingGroup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test1CreatingGroup@19058533]" name="setup" is-config="true" duration-ms="1" started-at="2015-08-20T15:40:41Z" finished-at="2015-08-20T15:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test1CreatingGroup@19058533]" name="start" is-config="true" duration-ms="4894" started-at="2015-08-20T15:40:41Z" finished-at="2015-08-20T15:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="createGroup()[pri:0, instance:Test1CreatingGroup@19058533]" name="createGroup" duration-ms="61221" started-at="2015-08-20T15:40:46Z" finished-at="2015-08-20T15:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test1CreatingGroup@19058533]" name="tearDown" is-config="true" duration-ms="356" started-at="2015-08-20T15:41:47Z" finished-at="2015-08-20T15:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test1CreatingGroup -->
+      <class name="Test12Search">
+        <test-method status="PASS" signature="start()[pri:0, instance:Test12Search@5d1b9c3d]" name="start" is-config="true" duration-ms="5775" started-at="2015-08-20T15:29:05Z" finished-at="2015-08-20T15:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test12Search@5d1b9c3d]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-20T15:29:05Z" finished-at="2015-08-20T15:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search()[pri:0, instance:Test12Search@5d1b9c3d]" name="search" duration-ms="7923" started-at="2015-08-20T15:29:11Z" finished-at="2015-08-20T15:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test12Search@5d1b9c3d]" name="tearDown" is-config="true" duration-ms="412" started-at="2015-08-20T15:29:19Z" finished-at="2015-08-20T15:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test12Search -->
+      <class name="Test14EditComplexDirectory">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test14EditComplexDirectory@49a26d19]" name="setup" is-config="true" duration-ms="1" started-at="2015-08-20T15:31:26Z" finished-at="2015-08-20T15:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test14EditComplexDirectory@49a26d19]" name="start" is-config="true" duration-ms="5401" started-at="2015-08-20T15:31:26Z" finished-at="2015-08-20T15:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="editComplexDirectory()[pri:0, instance:Test14EditComplexDirectory@49a26d19]" name="editComplexDirectory" duration-ms="276376" started-at="2015-08-20T15:31:32Z" finished-at="2015-08-20T15:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editComplexDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test14EditComplexDirectory@49a26d19]" name="tearDown" is-config="true" duration-ms="338" started-at="2015-08-20T15:36:08Z" finished-at="2015-08-20T15:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test14EditComplexDirectory -->
+      <class name="Test2EditGroup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test2EditGroup@4315e9af]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-20T15:41:47Z" finished-at="2015-08-20T15:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test2EditGroup@4315e9af]" name="start" is-config="true" duration-ms="4842" started-at="2015-08-20T15:41:47Z" finished-at="2015-08-20T15:41:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="editGroup()[pri:0, instance:Test2EditGroup@4315e9af]" name="editGroup" duration-ms="116943" started-at="2015-08-20T15:41:52Z" finished-at="2015-08-20T15:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test2EditGroup@4315e9af]" name="tearDown" is-config="true" duration-ms="439" started-at="2015-08-20T15:43:49Z" finished-at="2015-08-20T15:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test2EditGroup -->
+      <class name="Test6DeleteDirectory">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test6DeleteDirectory@479f2dc2]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-20T15:49:50Z" finished-at="2015-08-20T15:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test6DeleteDirectory@479f2dc2]" name="start" is-config="true" duration-ms="4805" started-at="2015-08-20T15:49:50Z" finished-at="2015-08-20T15:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="FAIL" signature="deleteDirectory()[pri:0, instance:Test6DeleteDirectory@479f2dc2]" name="deleteDirectory" duration-ms="156884" started-at="2015-08-20T15:49:54Z" finished-at="2015-08-20T15:52:31Z">
+          <exception class="com.codeborne.selenide.ex.ElementShould">
+            <message>
+              <![CDATA[Element should be hidden {.gost-loading-overlay}
+Element: '<div class="gost-loading-overlay" data-reactid=".0.2">Загрузка</div>']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[Element should be hidden {.gost-loading-overlay}
+Element: '<div class="gost-loading-overlay" data-reactid=".0.2">Загрузка</div>'
+Screenshot: file:/C:/Users/John/IdeaProjects/Gis-Tek/build/reports/tests/1440075151588.0.png
+Timeout: 45 s.
+	at com.codeborne.selenide.impl.AbstractSelenideElement.checkCondition(AbstractSelenideElement.java:512)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.should(AbstractSelenideElement.java:476)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invokeShould(AbstractSelenideElement.java:299)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchSelenideMethod(AbstractSelenideElement.java:176)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.dispatchAndRetry(AbstractSelenideElement.java:92)
+	at com.codeborne.selenide.impl.AbstractSelenideElement.invoke(AbstractSelenideElement.java:67)
+	at com.codeborne.selenide.impl.WaitingSelenideElement.invoke(WaitingSelenideElement.java:18)
+	at com.sun.proxy.$Proxy5.waitUntil(Unknown Source)
+	at Base.PageBase.waitUntilLoading(PageBase.java:27)
+	at Pages.MainPage.clickButtonDelete(MainPage.java:124)
+	at Test6DeleteDirectory.deleteDirectory(Test6DeleteDirectory.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.codeborne.selenide.ex.ElementShould -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test6DeleteDirectory@479f2dc2]" name="tearDown" is-config="true" duration-ms="615" started-at="2015-08-20T15:52:32Z" finished-at="2015-08-20T15:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test6DeleteDirectory -->
+      <class name="Test3DeleteGroup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test3DeleteGroup@42210be1]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-20T15:43:50Z" finished-at="2015-08-20T15:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test3DeleteGroup@42210be1]" name="start" is-config="true" duration-ms="4822" started-at="2015-08-20T15:43:50Z" finished-at="2015-08-20T15:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="deleteGroup()[pri:0, instance:Test3DeleteGroup@42210be1]" name="deleteGroup" duration-ms="65714" started-at="2015-08-20T15:43:54Z" finished-at="2015-08-20T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteGroup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test3DeleteGroup@42210be1]" name="tearDown" is-config="true" duration-ms="322" started-at="2015-08-20T15:45:00Z" finished-at="2015-08-20T15:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test3DeleteGroup -->
+      <class name="Test10ChangeVersion">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test10ChangeVersion@6f89292e]" name="setup" is-config="true" duration-ms="127" started-at="2015-08-20T15:21:43Z" finished-at="2015-08-20T15:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test10ChangeVersion@6f89292e]" name="start" is-config="true" duration-ms="12054" started-at="2015-08-20T15:21:43Z" finished-at="2015-08-20T15:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="changeVersion()[pri:0, instance:Test10ChangeVersion@6f89292e]" name="changeVersion" duration-ms="234422" started-at="2015-08-20T15:21:55Z" finished-at="2015-08-20T15:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeVersion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test10ChangeVersion@6f89292e]" name="tearDown" is-config="true" duration-ms="1028" started-at="2015-08-20T15:25:50Z" finished-at="2015-08-20T15:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test10ChangeVersion -->
+      <class name="Test5EditDirectory">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test5EditDirectory@2babf189]" name="setup" is-config="true" duration-ms="1" started-at="2015-08-20T15:46:56Z" finished-at="2015-08-20T15:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test5EditDirectory@2babf189]" name="start" is-config="true" duration-ms="4780" started-at="2015-08-20T15:46:56Z" finished-at="2015-08-20T15:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="editDirectory()[pri:0, instance:Test5EditDirectory@2babf189]" name="editDirectory" duration-ms="168774" started-at="2015-08-20T15:47:00Z" finished-at="2015-08-20T15:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test5EditDirectory@2babf189]" name="tearDown" is-config="true" duration-ms="470" started-at="2015-08-20T15:49:49Z" finished-at="2015-08-20T15:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test5EditDirectory -->
+      <class name="Test16ValidationFields">
+        <test-method status="PASS" signature="start()[pri:0, instance:Test16ValidationFields@7275c74b]" name="start" is-config="true" duration-ms="4670" started-at="2015-08-20T15:38:37Z" finished-at="2015-08-20T15:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test16ValidationFields@7275c74b]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-20T15:38:37Z" finished-at="2015-08-20T15:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createDirectory()[pri:0, instance:Test16ValidationFields@7275c74b]" name="createDirectory" duration-ms="118620" started-at="2015-08-20T15:38:42Z" finished-at="2015-08-20T15:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test16ValidationFields@7275c74b]" name="tearDown" is-config="true" duration-ms="379" started-at="2015-08-20T15:40:41Z" finished-at="2015-08-20T15:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test16ValidationFields -->
+      <class name="Test15ImportDirectory">
+        <test-method status="PASS" signature="start()[pri:0, instance:Test15ImportDirectory@730e5763]" name="start" is-config="true" duration-ms="4724" started-at="2015-08-20T15:36:09Z" finished-at="2015-08-20T15:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test15ImportDirectory@730e5763]" name="setup" is-config="true" duration-ms="0" started-at="2015-08-20T15:36:09Z" finished-at="2015-08-20T15:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="importDirectory()[pri:0, instance:Test15ImportDirectory@730e5763]" name="importDirectory" duration-ms="143575" started-at="2015-08-20T15:36:13Z" finished-at="2015-08-20T15:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test15ImportDirectory@730e5763]" name="tearDown" is-config="true" duration-ms="410" started-at="2015-08-20T15:38:37Z" finished-at="2015-08-20T15:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test15ImportDirectory -->
+      <class name="Test11DeleteItem">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test11DeleteItem@71f96dfb]" name="setup" is-config="true" duration-ms="1" started-at="2015-08-20T15:25:51Z" finished-at="2015-08-20T15:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test11DeleteItem@71f96dfb]" name="start" is-config="true" duration-ms="5629" started-at="2015-08-20T15:25:51Z" finished-at="2015-08-20T15:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="deleteItemInDirectory()[pri:0, instance:Test11DeleteItem@71f96dfb]" name="deleteItemInDirectory" duration-ms="188063" started-at="2015-08-20T15:25:57Z" finished-at="2015-08-20T15:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemInDirectory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test11DeleteItem@71f96dfb]" name="tearDown" is-config="true" duration-ms="567" started-at="2015-08-20T15:29:05Z" finished-at="2015-08-20T15:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test11DeleteItem -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
